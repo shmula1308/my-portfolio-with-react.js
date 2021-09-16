@@ -1,18 +1,25 @@
+/* Color Schemes
+   Color Mode 1 (#282828,#E8D8B3,#F9BC41,#8FBF7A,#93B137,#F64A3C,#F9BC41)
+   Color Mode 2 (
+    */
+
 *,
 :after,
 :before {
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  border: 20px solid #ed6a5a;
-  height: 100vh;
-  background-color: #fffff8;
+  background-color: #282828;
 }
 
 code {

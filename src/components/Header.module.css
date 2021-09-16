@@ -1,0 +1,45 @@
+.header {
+  margin-top: 1em;
+}
+
+.logo {
+  color: #7c6f65;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.logo:before {
+  content: "🛶";
+  margin-right: 0.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  width: 350px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  border-bottom: 4px solid #e34a3c;
+  color: #dfd5b3;
+}
+
+.logo:hover,
+.link:hover {
+  color: #282828;
+  background-color: #e8b540;
+}
